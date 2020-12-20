@@ -1,0 +1,12 @@
+import time
+print('Greetings Earthling, I am about to amaze you with my power of math')
+num_1 = input('Please enter a number')
+num_2 = input('Please enter another number')
+product = int(num_1) * int(num_2)
+print('Now let me mystify you...')
+time.sleep(2)
+print('Let me think about this...')
+time.sleep(2)
+print('...drumroll please...')
+time.sleep(2)
+print(num_1, 'x', num_2, '=', product)
